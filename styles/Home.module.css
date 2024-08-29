@@ -1,0 +1,43 @@
+.container {
+  text-align: center;
+  padding: 20px;
+}
+
+.board {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.column {
+  background-color: #f4f5f7;
+  border-radius: 3px;
+  width: 300px;
+  padding: 10px;
+}
+
+.task {
+  background-color: white;
+  border-radius: 3px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.taskActions {
+  margin-top: 10px;
+}
+
+.taskActions button {
+  margin: 0 5px;
+  padding: 5px;
+  font-size: 12px;
+}
+
+.taskInput {
+  margin: 20px 0;
+}
+
+.taskInput input {
+  padding: 5px;
+  margin-right: 10px;
+}
